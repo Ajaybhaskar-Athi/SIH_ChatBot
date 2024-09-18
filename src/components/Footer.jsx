@@ -8,7 +8,7 @@ const Footer = () => {
     <div class="flex flex-col md:flex-row justify-between items-center">
       <div class="mb-4 md:mb-0">
         {/* <img src="" alt="Your Company Logo" class="h-8 w-auto"/> */}
-        <p class="mt-2 text-sm">Making the world a better place <br /> through constructing elegant hierarchies.</p>
+        {/* <p class="mt-2 text-sm">Making the world a better place <br /> through constructing elegant hierarchies.</p> */}
       </div>
       <nav class="flex flex-col  md:flex-row space-x-24">
         <div>

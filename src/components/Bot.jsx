@@ -37,7 +37,7 @@ function Bot() {
 
   return (
     
-    <div className="app-container">
+    <div className="app-container ">
       <div className="bot-icon" onClick={toggleChat}>
         🤖 {/* You can replace this with an actual bot icon or image */}
       </div>
@@ -45,7 +45,7 @@ function Bot() {
       {chatOpen && (
         <div className="chat-box">
           <div className="chat-header">
-            <h3>Hi, this is Mia!</h3>
+            <h3>Hi, this is Chimtu!</h3>
             
           </div>
           <div className="chat-content">

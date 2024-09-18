@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/styles/header.css";
-
+import { Link } from "react-router-dom";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -14,10 +14,11 @@ function Header() {
         <div className="nav-links">
           <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
             <li>
-              <a href="#home">Home</a>
+              {/* <a href="#home">Home</a> */}
+              <Link to='/' >Home</Link>
             </li>
             <li>
-              <a href="#about">About</a>
+      <Link to='/About'>About</Link>
             </li>
             <li>
               <a href="#contact">Contact</a>
